@@ -1,0 +1,17 @@
+{
+  "name": "weather-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "yup": "^1.2.0"
+  },
+  "scripts": {
+    "start": "npx serve -s build",
+    "dev": "npx vite"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}
