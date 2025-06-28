@@ -14,9 +14,7 @@ A simple weather dashboard demonstrating a React.js orchestration layer that:
 - Enter a city name to fetch weather info
 - Response validation using Yup (React)
 - Dynamic UI updates: loading, error, and success states
-- Weather icons and temperature unit toggle (°C/°F)
-- Recent search history and clear/reset functionality
-- Modern, visually appealing UI
+- Weather icons and temperature unit toggle (°C/°F) 
 
 ---
 
