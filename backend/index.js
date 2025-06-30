@@ -35,6 +35,20 @@ app.get('/weather', (req, res) => {
   res.json(weather);
 });
 
+app.get('/cities', (req, res) => {
+  // Mock list of cities
+  const cities = [
+    "London",
+    "New York",
+    "Paris",
+    "Tokyo",
+    "Sydney",
+    "Berlin",
+    "Mumbai"
+  ];
+  res.json({ cities });
+});
+
 app.listen(PORT, () => {
   console.log(`Weather backend running on http://localhost:${PORT}`);
 });
